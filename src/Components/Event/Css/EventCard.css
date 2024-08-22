@@ -1,0 +1,57 @@
+.event-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+}
+
+.event-details {
+  margin-top: 10px;
+  color: black;
+}
+
+.event-actions {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+}
+.editIcon {
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+  }
+.deleteIcon {
+  cursor: pointer;
+  color: red;
+  border: 1px solid black;
+  padding: 5px;
+}
+.eyeIcon {
+    cursor: pointer;
+    color: rgb(91, 152, 37);
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .title{
+    font-size: 20px;
+  }
+  .description{
+    color: black;
+    font-size: large;
+  }
+  .date-time{
+    color: black;
+  }
+  .faIcon{
+    margin-right: 10px;
+    font-size: large;
+  }

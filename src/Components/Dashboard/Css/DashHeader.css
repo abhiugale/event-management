@@ -1,0 +1,30 @@
+/* src/components/DashHeader.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .header h1 {
+    font-size: 1.5em;
+    color: #ff5733;
+  }
+  
+  .header input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-icons i {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  

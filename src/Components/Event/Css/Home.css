@@ -1,0 +1,78 @@
+.main-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .intro {
+    margin-top: 200px;
+    text-align: center;
+  }
+  
+  .intro h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .find-event {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: larger;
+    cursor: pointer;
+  }
+  
+  .publish-event {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+    padding: 10px 20px;
+    font-size: larger;
+    cursor: pointer;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  .steps {
+    display: flex;
+    align-items: center;
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .circle {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .step span {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .arrow {
+    margin: 0 10px;
+    color: red;
+  }
+  

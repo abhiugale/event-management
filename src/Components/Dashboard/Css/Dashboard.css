@@ -1,0 +1,12 @@
+/* src/DAshbaord.css */
+/* .dashboard {
+  display: flex;
+} */
+
+.main {
+  margin-left: 250px; /* Same as the sidebar width */
+  padding: 20px;
+}
+.overview {
+  margin-right: 100%; /* Same as the sidebar width */
+}

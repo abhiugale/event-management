@@ -1,0 +1,69 @@
+/* src/components/CreateEvent.css */
+.create-event-div {
+  display: flex;
+  margin-left: 250px; /* Same as the sidebar width */
+  padding: 20px;
+}
+.create-event {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 0 20px;
+}
+
+.create-event h2 {
+  margin-bottom: 20px;
+}
+
+.create-event label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.create-event input,
+.create-event textarea,
+.create-event select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-event .date-inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.create-event .date-inputs input {
+  width: 48%;
+}
+
+.create-event .image-upload {
+  background: white;
+  border-radius: 5px;
+  border: 2px dashed rgb(44, 124, 20);
+  border-image: none;
+  max-width: 100px;
+  padding: 30px;
+  
+}
+
+/* .create-event .image-upload input {
+    display: none;
+  } */
+
+.create-event button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-event button:hover {
+  background-color: #0056b3;
+}
